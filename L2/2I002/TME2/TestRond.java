@@ -36,7 +36,7 @@ public class TestRond {
 
         // Sauver l'image dans un fichier
         try {
-            File outputfile = new File("saved.png");
+            File outputfile = new File("rond.png");
             ImageIO.write(im, "png", outputfile);
          } catch (IOException e) {
             System.out.println("Erreur lors de la sauvegarde");

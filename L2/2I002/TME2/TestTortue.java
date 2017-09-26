@@ -39,7 +39,7 @@ public class TestTortue {
 
         // Sauver l'image dans un fichier
         try {
-            File outputfile = new File("saved.png");
+            File outputfile = new File("tortue.png");
             ImageIO.write(im, "png", outputfile);
          } catch (IOException e) {
             System.out.println("Erreur lors de la sauvegarde");
